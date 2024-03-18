@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+    header .pg-1{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+        display: block;
+        background-color: rgb(32, 6, 117);
+        margin-top: 0 !important;
+    }
+
+    header .div-1{
+        display: block;
+        color: #fff;
+        padding-left: 15px;
+        top: 0;
+        
+    }
+
+    header .div-1 h2{
+        font-size: 30px;
+        padding-top: 80px;
+        padding-bottom: 15px;
+        
+        
+    }
+    header .div-1 p{
+        width: 350px;
+    }
+    header .div-1 .anime{
+        width: 360px;
+        height: 360px;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    section .hero h1{
+        padding-bottom: 20px;
+    }
+
+    section .hero p{
+        width: 350px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    section .content{
+        display: block;
+    }
+    section .content .content-1, .content-2, .content-3{
+    margin-bottom: 30px;
+    margin-left: auto;
+    }
+
+
+    section .content .content-1{
+        width: 300px;
+        padding-left: 0;
+        border-radius: 0;
+        margin-left: 44px;
+    }
+
+    section .content .content-2{
+        width: 300px;
+        padding-left: 0;
+        border-radius: 0;
+        display: block;
+        margin-left: 44px;
+        
+    }
+
+    section .content .content-3{
+        width: 300px;
+        padding-left: 0;
+        border-radius: 0;
+        margin-left: 44px;
+    }
+
+    section .finexo{
+        display: block;
+        color: black;
+    }
+
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+
+nav{
+    background-color: rgb(32, 6, 117);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul{   
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(251, 250, 250);
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(32, 6, 117);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+    color: #fff;
+}
+.menu-button{
+    display: none;
+}
+
+.div-1{
+    display: flex;
+}
+
+header{
+    background-color: rgb(32, 6, 117); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 900px;
+    margin-bottom: 40px;
+}
+.pg-1{
+    width: 500px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.pg-1 h2{
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+@keyframes image-bounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.anime{
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 300px;
+    animation: image-bounce 4s infinite;
+}
+.btn{
+    margin-top: 25px;
+    padding: 15px 35px;
+    background-color: rgb(0, 179, 255);
+    color: #fff !important;
+}
+
+.hero{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.hero p{
+    font-size: 20px;
+}
+
+span{
+    color: rgb(0, 179, 255);
+}
+
+.content{
+    display: flex;
+}
+
+
+.content-1{
+    background-color: #f0f0f0;
+    width: 30%;
+    height: 350px;
+    margin-right: 35px;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.content-2{
+    background-color: #f0f0f0;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+    border-radius: 20px;
+}
+.content-3{
+    background-color: #f0f0f0;
+    width: 30%;
+    height: 350px;
+    margin-left: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+img{
+    width: 100px;
+    padding: 20px 0 25px 0;
+}
+
+button{
+    margin-top: 25px;
+    padding: 15px 35px;
+    background-color: rgb(0, 179, 255);
+    color: #fff !important;
+    font-weight: bold;
+    
+}
+
+section .abt{
+    text-align: center; 
+    padding-top: 40px;
+    font-size: 26px;
+}
+section p{
+    font-size: 20px;
+}
+
+section .finexo{
+    display: flex;
+    /* color: black; */
+}
+
+.about-img{
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.about-us{
+    width: 700px; 
+    margin-left: 100px; 
+    padding-top: 100px;
+}
+
+#same{
+    width: 700px;
+    text-align: center !important;
+    margin-left: 25%;
+}
+
+.foot{
+    text-align: center; 
+    padding-top: 90px;
+}
+
+#border{
+    border: solid rgb(10, 2, 61) 9px;
+    border-radius: 50%;
+}
